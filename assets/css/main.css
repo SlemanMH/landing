@@ -162,3 +162,32 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
 }
+/* media footer */
+@media screen and (max-width:1200px) {
+
+    .footer-left-side,
+    .footer-right-side {
+        width: 100%;
+    }
+
+    .footer .row {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer-item {
+        width: calc(50% - 10px);
+    }
+
+    .footer-right-side {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footer-item {
+        width: 100%;
+        text-align: center;
+    }
+}
